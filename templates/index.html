@@ -7,15 +7,21 @@
 </head>
 <body> <!--#whats on the page-->
 
-		<p id="gpu">
-		</p>
+		<p id="gpu"></p>
+		<p id="cpu"></p>
+		<p id="igpu"></p>
+		<p id="ram"></p>
 	<script>
 		console.log("script is running")
 		//Javascript Here
 		fetch('/temps')
 			.then(response => response.json())
-			.then(data =>
-				document.getElementById('gpu').innerText = data.GPU)
+			.then(data => {
+				document.getElementById('gpu').innerText = data.GPU
+				document.getElementById('cpu').innerText = data.CPU
+				document.getElementById('igpu').innerText = data.iGPU
+				document.getElementById('ram').innerText = data.RAM
+			})
 	</script>
 </body>
 </html>

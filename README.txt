@@ -11,6 +11,12 @@ WHAT IT DOES
 - Sends notifcations to users phone using Slack if temps exceed warning thresholds, using a webhook
 - Automatically shuts down the server if temps hit critical levels
 - Runs automatically every 5 minutes with cron
+
+--------------------------------------------------------------------------------
+HOW TO USE
+--------------------------------------------------------------------------------
+Copy config.example.sh to config.sh and add your own Slack webhook URL.
+Create a webhook at api.slack.com/apps
  
 --------------------------------------------------------------------------------
 SERVER
