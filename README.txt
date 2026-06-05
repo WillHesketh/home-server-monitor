@@ -72,6 +72,7 @@ Difficulties
    - I had a lot of trouble learning how to seperate the different peices of
    the information given to me, into something that is just the number and can
    be used/displayed
+ 
    
 --------------------------------------------------------------------------------
 Reflection
