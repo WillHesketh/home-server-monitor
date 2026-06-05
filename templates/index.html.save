@@ -1,0 +1,17 @@
+<!DOCTYPE>
+<html>
+<head> <!--CSS (DESIGN) GOES HERE-->
+	<style>
+		
+	</style>
+</head>
+<body> <!--#whats on the page-->
+	<h1>
+		HELLO WORLD
+	</h1>
+	<script>
+		//Javascript Here
+				
+	</script>
+</body>
+</html>

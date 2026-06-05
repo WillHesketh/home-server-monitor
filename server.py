@@ -1,10 +1,10 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template
 import subprocess
 app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hello! My server is working!"
+    return render_template('index.html')
 
 @app.route('/temps')
 def get_temps():

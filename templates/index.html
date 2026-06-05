@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head> <!--CSS (DESIGN) GOES HERE-->
+	<style>
+		
+	</style>
+</head>
+<body> <!--#whats on the page-->
+
+		<p id="gpu">
+		</p>
+	<script>
+		console.log("script is running")
+		//Javascript Here
+		fetch('/temps')
+			.then(response => response.json())
+			.then(data =>
+				document.getElementById('gpu').innerText = data.GPU)
+	</script>
+</body>
+</html>
